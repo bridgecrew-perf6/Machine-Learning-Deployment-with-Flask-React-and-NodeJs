@@ -4,4 +4,10 @@ function User() {
     );
 }
 
-export default User;
+function SecondUser() {
+    return (
+        <h1>Second User Data Here</h1>
+    )
+}
+
+export {User, SecondUser};
